@@ -1,0 +1,120 @@
+# Print current working directory
+pwd
+
+# List files in current directory
+ls
+
+# Change directory to desktop  (used to get into a directory)
+cd desktop
+cd <filename>
+
+# Change directory to home directory(quick access to home directory)
+cd ~
+
+# used to move directly to root directory 
+cd /
+
+# Move to parent directory
+cd ..
+
+# Create directory named "linux_commands"
+mkdir linux_commands
+
+# Remove file named "aslam" (assuming it exists)
+rm aslam
+
+# Remove directory named "linux_commands" (empty directory only)
+rmdir linux_commands
+
+# Remove directory named "aslam" (it's not an empty directory)
+rm-r aslam
+
+# Clear the terminal screen
+clear
+
+# Create a file named "first.txt"
+touch first.txt
+
+# Edit "first.txt" file using nano text editor(writting into the file)
+nano first.txt
+
+# Display content of "first.txt" file
+cat first.txt
+
+# Change directory to "linux_commands" directly under home directory(immediatly to linux_commands directory (not able to access the file) )
+cd /home/aslam/linux_commands
+
+# Rename "second" file to "second.txt"
+mv second second.txt
+
+# Display content of "first.txt" and "second.txt" concatenated, and save it to "third.txt"(copy first and second to third)
+cat first.txt second.txt > third.txt
+
+# List all sh file in a particular directory(.sh can be changed )
+ls *.sh
+
+# Display more text (like scroll bar)
+more
+
+# Display help for "mv" command(mv can change )
+mv --help
+
+# Display line numbers for "linux_commands2" file
+nl linux_commands2
+
+# Display current date and time
+date
+
+# Display current date and time in UTC
+date -u
+
+# Display calendar for current month
+cal
+
+# used to see all the previous cammands 
+history
+
+#used to see all hidden files(. files)
+ls -a
+
+
+# used to print according to its size 
+ls -s
+
+# used to print in revers order
+ls -r
+
+# used to print according to its time
+ls -t
+
+# used to print its inode number of a file 
+ls-i
+
+# used to copy a file into another folder
+cp file name ~ /needed folder name/
+
+# used to move directoly into file 3
+cd file1/file2/file3
+
+# used to create a file inside another file and a file inside another file 
+mkdir -p file1/file2/file3
+
+#used to display the first 8 line of a file 
+head <filename>
+
+#used to display the last 8 line of a file 
+tail <filename>
+
+#used to display the user needed line of a file in starting  
+head -n (needed lines) <filename>
+eg :  head -n 3 multiplication.sh (first 3 lines print )
+
+#used to display the user needed line of a file in ending 
+tail -n (needed lines) <filename>
+eg :  tail -n 3 multiplication.sh (first 3 lines print )  
+
+
+
+
+
+
